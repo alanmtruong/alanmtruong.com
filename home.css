@@ -43,3 +43,9 @@ p {
   background-color: #7F00FF;
   color: white;
 }
+
+.pdf {
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(69, 52, 146);
+  background-color: rgb(42, 41, 46);
 }
 
 h1 {
@@ -9,7 +9,15 @@ h1 {
   margin: 100px;
 }
 
+.intro {
+  color: white;
+  border: 3px outset white;
+  background-color: rgb(109, 46, 128);
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 50px;
+}
 p {
-  font-family: verdana;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 20px;
 }

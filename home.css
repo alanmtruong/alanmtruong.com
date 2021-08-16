@@ -4,16 +4,14 @@ body {
 
 h1 {
   color: white;
-  text-align: center;
   font-family: 'Trebuchet MS', sans-serif;
   margin: 100px;
 }
 
 p {
   color: white;
-  text-align: center;
   font-family: 'Trebuchet MS', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .topnav {
@@ -48,4 +46,10 @@ p {
   text-align: center;
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 30px;
+}
+
+.homepage {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 50px;
 }

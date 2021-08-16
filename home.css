@@ -55,6 +55,9 @@ p {
   margin: 100px;
 }
 
+.link {
+  text-align: center;
+}
 .link a{
   color: white;
   font-family: 'Trebuchet MS', sans-serif;

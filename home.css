@@ -55,7 +55,7 @@ p {
   margin: 100px;
 }
 
-.link ul {
+ul {
   display: table;
   margin: 0 auto;
 }

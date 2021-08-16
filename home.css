@@ -55,17 +55,6 @@ p {
   margin: 100px;
 }
 
-ul {
-  display: table;
-  margin: 0 auto;
-}
-.link a{
-  color: white;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-}
-.link ul{
-  color: white;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+.link {
+  text-align: center;
 }

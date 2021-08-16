@@ -54,3 +54,14 @@ p {
   font-family: "Lucida Console", "Courier New", monospace;
   margin: 100px;
 }
+
+.link a{
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.link li{
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}

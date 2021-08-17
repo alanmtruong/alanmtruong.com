@@ -16,7 +16,7 @@ p {
 }
 
 .topnav {
-  background-color: #333;
+  background-color: rgb(56, 56, 56);
   overflow: hidden;
 }
 
@@ -39,7 +39,7 @@ p {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #7F00FF;
+  background-color: rgb(142, 67, 218);
   color: white;
 }
 

@@ -1,13 +1,12 @@
 
 .topnav {
-  background-color: rgb(56, 56, 56);
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #f2f2f2;
+  float: right;
+  color: rgba(117,9,9,0.664);
   display: block;
   padding: 20px 20px;
   text-decoration: none;
@@ -17,14 +16,14 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: rgba(117,9,9,0.664);
+  font-weight: bold;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: rgba(117,9,9,0.664);
-  color: white;
+  color: rgba(117,9,9,0.664);
+  font-weight: bold;
 }
 
 .pdf {

@@ -60,6 +60,13 @@ h1 {
   height: 500px;
 }
 
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+
 .intro {
       color: white;
       border: 3px outset rgb(0,0,0,0.5);

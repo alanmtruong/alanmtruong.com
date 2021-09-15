@@ -58,7 +58,6 @@
 
 .homepage img{
   border-radius: 20%;
-  border: 5px solid black;
   width: 340px;
   height: 360px;
   margin-bottom: 50px;
@@ -111,7 +110,7 @@
 
 .setup h1{
   margin-left:70px;
-  color: rgb(117,9,9);
+  color: rgba(117,9,9,0.664);
   font-family: 'Candara';
   font-size: 1.5em;
 }

@@ -12,7 +12,7 @@
   padding: 20px 20px;
   text-decoration: none;
   font-size: 1.5em;
-  font-family: 'Rockwell';
+  font-family: 'Arial Black';
 }
 
 /* Change the color of links on hover */
@@ -35,7 +35,7 @@
 
 .homepage {
   color: white;
-  font-family: "Rockwell";
+  font-family: "Arial Black";
   margin-top: 100px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .homepage img{
-  border-radius: 20px;
+  border-radius: 30%;
   border: 5px solid black;
   width: 340px;
   height: 360px;
@@ -83,19 +83,19 @@
 .links h1{
   text-align: center;
   font-size: 3em;
-  font-family:'Rockwell';
+  font-family:'Arial Black';
   color:black;
 }
 .links p{
   color:black;
-  font-family:'Rockwell';
+  font-family:'Arial Black';
   font-size: 1.5em;
   text-align: center;
 }
 
 .links a{
   color:black;
-  font-family:'Rockwell';
+  font-family:'Arial Black';
   font-size: 1.5em;
   text-align: center;
 }
@@ -103,20 +103,20 @@
 .setup h1{
   margin-left:70px;
   color: rgb(117,9,9);
-  font-family: 'Rockwell';
+  font-family: 'Arial Black';
   font-size: 1.5em;
 }
 
 .setup p{
   margin-left: 70px;
   color: black;
-  font-family: 'Rockwell';
+  font-family: 'Arial Black';
   font-size: 1.4em;
 }
 
 .setup a{
   margin-left: 30px;
   color: black;
-  font-family: 'Rockwell';
+  font-family: 'Arial Black';
   font-size: 1.3em;
 }

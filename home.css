@@ -5,6 +5,7 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  overflow: hidden;
   float: right;
   color: rgba(117,9,9,0.664);
   display: block;
@@ -15,6 +16,7 @@
   font-weight: bold;
 }
 .topnav p {
+  overflow: hidden;
   float: left;
   color: rgba(117,9,9,0.664);
   display: block;
@@ -28,12 +30,14 @@
 .topnav a:hover {
   color: rgba(117,9,9,0.664);
   font-weight: 900;
+  text-decoration: underline;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   color: rgba(117,9,9,0.664);
   font-weight: 900;
+  text-decoration: underline;
 }
 
 .pdf {
@@ -64,9 +68,9 @@
 }
 
 .homepage img.ms{
-  border-radius: 20%;
-  width: 370px;
-  height: 330px;
+  border-radius: 10%;
+  width: 400px;
+  height: 340px;
   margin-bottom: 50px;
 }
 

@@ -1,8 +1,14 @@
-
+body{
+  background-color: #f5f5c4
+}
 .topnav {
   overflow: hidden;
 }
 
+.topnav {
+  top: 0;
+  position: fixed;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   overflow: hidden;
@@ -69,7 +75,7 @@
 .homepage img.ms{
   border-radius: 10%;
   width: 400px;
-  height: 280px;
+  height: 240px;
   margin-bottom: 50px;
 }
  .homepage hr{

@@ -36,10 +36,11 @@
 .homepage {
   color: white;
   font-family: "Rockwell";
+  margin-top: 100px;
 }
 
 .homepage p{
-  font-size: 2em;
+  font-size: 1.2em;
   text-align: center;
   line-height:150%;
   color: black;
@@ -71,29 +72,29 @@
       margin: auto;
  }
 .intro p{
-  font-size:1.5em;
+  font-size:1.2em;
 }
 .intro h1{
-  font-size:3em;
+  font-size:2em;
 }
 
 .links h1{
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   font-family:'Rockwell';
   color:black;
 }
 .links p{
   color:black;
   font-family:'Rockwell';
-  font-size: 2em;
+  font-size: 1.2em;
   text-align: center;
 }
 
 .links a{
   color:black;
   font-family:'Rockwell';
-  font-size: 2em;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -101,19 +102,19 @@
   margin-left:70px;
   color: black;
   font-family: 'Rockwell';
-  font-size: 3em;
+  font-size: 1.3em;
 }
 
 .setup p{
   margin-left: 70px;
   color: black;
   font-family: 'Rockwell';
-  font-size: 1.3em;
+  font-size: .8em;
 }
 
 .setup a{
   margin-left: 30px;
   color: black;
   font-family: 'Rockwell';
-  font-size: 1.3em;
+  font-size: .8em;
 }

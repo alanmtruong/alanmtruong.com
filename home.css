@@ -14,6 +14,16 @@
   font-family: 'Candara';
   font-weight: bold;
 }
+.topnav p{
+  float: left;
+  color: rgba(117,9,9,0.664);
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Candara';
+  font-weight: 900;
+}
 
 /* Change the color of links on hover */
 .topnav a:hover {

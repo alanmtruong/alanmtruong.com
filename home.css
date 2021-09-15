@@ -19,7 +19,6 @@
   overflow: hidden;
   float: left;
   color: rgba(117,9,9,0.664);
-  display: block;
   text-decoration: none;
   font-size: 1.5em;
   font-family: 'Candara';
@@ -70,7 +69,7 @@
 .homepage img.ms{
   border-radius: 10%;
   width: 400px;
-  height: 340px;
+  height: 280px;
   margin-bottom: 50px;
 }
 
@@ -103,7 +102,7 @@
   text-align: center;
   font-size: 3em;
   font-family:'Candara';
-  color:black;
+  color:rgba(117, 9, 9, 0.664);
 }
 .links p{
   color:black;

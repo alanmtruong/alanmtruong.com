@@ -72,7 +72,10 @@
   height: 280px;
   margin-bottom: 50px;
 }
-
+ .homepage hr{
+   width: 70%;
+   text-align: center;
+ }
 .center{
   display:block;
   margin-left:auto;

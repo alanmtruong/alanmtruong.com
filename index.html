@@ -10,16 +10,35 @@
   </head>
 
   <body>
+    <header class="header">
+      <nav class="navbar">
+          <a href="https://alanmtruong.com/" class="nav-logo">Alan Truong</a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="https://alanmtruong.com/" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="https://alanmtruong.com/resume" class="nav-link">Resume</a>
+              </li>
+              <li class="nav-item">
+                  <a href="https://alanmtruong.com/setup" class="nav-link">My Setup</a>
+              </li>
+              <li class="nav-item">
+                  <a href="https://github.com/alanmtruong" class="nav-link">GitLab</a>
+              </li>
+              <li class="nav-item">
+                  <a href="https://www.linkedin.com/in/alanmtruong/" class="nav-link">LinkedIn</a>
+              </li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+</header>
     <div class="css.selector">
 
-    </div>
-    <div class="topnav">
-      <p>Alan Truong</p>
-      <a href="https://github.com/alanmtruong" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/alanmtruong/" target="_blank">LinkedIn</a>
-      <a href="https://alanmtruong.com/setup">My Setup</a>
-      <a href="https://alanmtruong.com/resume">Resume</a>
-      <a class="active" href="https://alanmtruong.com/">Home</a>
     </div>
     <div class="intro">
       <h1>Welcome to Alan Truong's personal website!</h1>
@@ -32,7 +51,7 @@
       <br><br><br>
       <p><img src="images/MS-logo.png" alt="MicroSociety Logo" class="center ms"> MicroSociety is an educational model that focuses on putting more power to the students in terms of their learning. <br>No more traditional textbook learning as, through the creation of miniature societies, kids K-8 learn real-life lessons.<br> They develop into leaders, entrepreneurs, and confident citizens of their own society. <br>You can click the link below to go to their website and learn more about their mission!
       </p>
-      <br><br><br><hr>
+      <br><br><br><hr style="width:70%;" class="center">
     </div>
     <br><br><br>
     <div class="links">
@@ -44,6 +63,16 @@
     <p><a  href="https://myanimelist.net/profile/alansworld" target="_blank">MyAnimeList</a>: Keep up with the anime I watch.</p>
     <br><br><br>
     </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
   </body>
 
 </html>

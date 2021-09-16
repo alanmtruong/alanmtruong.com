@@ -1,46 +1,119 @@
 body{
-  background-color: #f5f5c4
-}
-.topnav {
-  overflow: hidden;
-  top: 0;
-  position: fixed;
+  background-color: #282828;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  overflow: hidden;
-  float: right;
-  color: rgba(117,9,9,0.664);
-  display: block;
-  padding: 20px 20px;
-  text-decoration: none;
-  font-size: 1.5em;
-  font-family: 'Candara';
-  font-weight: bold;
-}
-.topnav p {
-  overflow: hidden;
-  float: left;
-  color: rgba(117,9,9,0.664);
-  text-decoration: none;
-  font-size: 1.5em;
-  font-family: 'Candara';
-  font-weight: 900;
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  color: rgba(117,9,9,0.664);
-  font-weight: 900;
-  text-decoration: underline;
+html {
+    font-size: 72.5%;
+    font-family: 'Candara';
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: rgba(117,9,9,0.664);
-  font-weight: 900;
-  text-decoration: underline;
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header{
+    border-bottom: 1px solid #000000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.8rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #950740;
+    border: 10px;
+}
+.hamburger {
+    display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Candara';
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #393e46;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0,0.05)
+}
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
 
 .pdf {
@@ -59,7 +132,7 @@ body{
   font-size: 1.5em;
   text-align: center;
   line-height:150%;
-  color: black;
+  color: white;
   
 }
 
@@ -68,6 +141,7 @@ body{
   width: 340px;
   height: 360px;
   margin-bottom: 50px;
+  background-color:white;
 }
 
 .homepage img.ms{
@@ -84,64 +158,67 @@ body{
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:50%;
+  width: 50%;
 }
 
 .intro {
       color: white;
       border: 3px outset rgb(0,0,0,0.5);
       border-radius: 20px;
-      background-color: rgba(117, 9, 9, 0.664);
+      background-color: #950740;
       text-align: center;
       font-family: 'Candara';
       margin-left: 30px;
       margin-right: 30px;
-      margin-top: 100px;
+      margin-top: 140px;
  }
 .intro p{
   font-size:1.5em;
+  margin-bottom: 20px;
 }
 .intro h1{
   font-size:2em;
+  margin: 30px;
 }
 
 .links h1{
   text-align: center;
-  font-size: 3em;
+  font-size: 2.8em;
   font-family:'Candara';
-  color:rgba(117, 9, 9, 0.664);
+  color: #950740;
+  margin-bottom: 30px;
 }
 .links p{
-  color:black;
+  color: white;
   font-family:'Candara';
   font-size: 1.5em;
   text-align: center;
 }
 
 .links a{
-  color:black;
+  color: white;
   font-family:'Candara';
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
 }
 
 .setup h1{
   margin-left:70px;
-  color: rgba(117,9,9,0.664);
+  color: #6F2232;
   font-family: 'Candara';
   font-size: 1.5em;
 }
 
 .setup p{
   margin-left: 70px;
-  color: black;
+  color: white;
   font-family: 'Candara';
   font-size: 1.4em;
 }
 
 .setup a{
   margin-left: 30px;
-  color: black;
+  color: white;
   font-family: 'Candara';
   font-size: 1.3em;
 }

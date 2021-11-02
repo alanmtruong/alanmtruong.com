@@ -228,7 +228,7 @@ a {
 
 #fantasy{
     width    : 70%;
-    height   : 1000px;
+    height   : 1920px;
     margin   : auto;
     overflow : hidden;
     position : relative;
@@ -236,7 +236,7 @@ a {
 
 #fantasyiframe{
     width    : 1240px;
-    height   : 1630px;
+    height   : 100%;
     pointer-events: none;
 }
 @media only screen and (max-width: 768px) {

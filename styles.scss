@@ -204,6 +204,29 @@ a {
     }
 }
 
+.other {  
+    h1 {
+        margin-left: 70px;
+        color: $primary;
+        font-size: 2em;
+    }
+    h2 {
+        margin-top: 60px;
+        margin-left: 70px;
+        color: $primary;
+        font-size: 3em;
+    }
+    p {
+        margin-left: 70px;
+        font-size: 1.6em;
+        line-height: 50px;
+    }
+    a {
+        margin-left: 30px;
+        font-size: 1.4em;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -213,7 +236,6 @@ a {
         background-color: $nav-bg;
         width: 100%;
         border-radius: 10px;
-
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }

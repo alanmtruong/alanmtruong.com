@@ -209,6 +209,37 @@ a {
   font-size: 1.4em;
 }
 
+.other h1 {
+  color: #126e82;
+  font-size: 2em;
+}
+
+.other h2 {
+  margin-top: 60px;
+  color: #126e82;
+  font-size: 3em;
+}
+
+.other p {
+  font-size: 1.6em;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+#fantasy{
+    width    : 70%;
+    height   : 800px;
+    margin   : auto;
+    overflow : hidden;
+    position : relative;
+}
+
+#fantasyiframe{
+    margin-top: -605px;
+    width    : 1240px;
+    height   : 1630px;
+    pointer-events: none;
+}
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;

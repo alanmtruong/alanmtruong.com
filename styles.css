@@ -228,14 +228,14 @@ a {
 
 #fantasy{
     width    : 70%;
-    height   : 800px;
+    height   : 1000px;
     margin   : auto;
     overflow : hidden;
     position : relative;
 }
 
 #fantasyiframe{
-    margin-top: -605px;
+    margin-top: -585px;
     width    : 1240px;
     height   : 1630px;
     pointer-events: none;

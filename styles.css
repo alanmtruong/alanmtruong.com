@@ -6,13 +6,23 @@
           box-sizing: border-box;
 }
 
+font-face {
+  font-family: Bahnschrift;
+}
+
 body {
+  background: url(images/websitebackground.png) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: #d8e3e7;
   color: black;
   text-align: center;
-  font-family: "Candara";
-  font-size: 72.5%;
+  font-family: Bahnschrift;
+  font-size: 95%;
 }
+
 
 li {
   list-style: none;
@@ -101,6 +111,7 @@ a {
   margin-top: 100px;
 }
 
+
 .homepage p {
   font-size: 1.5em;
   line-height: 150%;
@@ -151,6 +162,7 @@ a {
   margin: 30px;
 }
 
+
 .projects * {
   margin-bottom: 30px;
 }
@@ -186,20 +198,20 @@ a {
 }
 
 .setup h1 {
-  margin-left: 70px;
+  text-align: center;
   color: #126e82;
   font-size: 2em;
 }
 
 .setup h2 {
   margin-top: 60px;
-  margin-left: 70px;
+  text-align: center;
   color: #126e82;
   font-size: 3em;
 }
 
 .setup p {
-  margin-left: 70px;
+  text-align: center;
   font-size: 1.6em;
   line-height: 50px;
 }
@@ -278,4 +290,3 @@ a {
             transform: translateY(-8px) rotate(-45deg);
   }
 }
-/*# sourceMappingURL=styles.css.map */
